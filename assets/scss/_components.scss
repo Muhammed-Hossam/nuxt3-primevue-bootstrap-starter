@@ -1,0 +1,38 @@
+
+
+.rate-card__content {
+  .p-rating {
+    svg {
+      --p-rating-icon-color: #FFC107;
+      --p-rating-icon-active-color: #FFC107;
+      --p-rating-icon-hover-color: #FFC107;
+      --p-rating-icon-color: #FFC107;
+      width: 15px;
+      height: 15px;
+    }
+  }
+}
+
+
+// ProviderRateDialog
+
+.rate-wrapper {
+  .p-rating {
+    svg {
+      width: 71.9px;
+      height: 68.7px;
+      --p-rating-icon-active-color: #FFD766;
+      --p-rating-icon-hover-color: #FFD766;
+
+    }
+  }
+}
+
+
+// .p-toast {
+//   @media screen and (max-width: $screen-lg) {
+//     left: 50% !important;
+//     transform: translateX(-50%) !important;
+//     max-width: 300px !important;
+//   }
+// }

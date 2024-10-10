@@ -1,0 +1,34 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@fawmi/vue-google-maps": "^0.9.72",
+    "@nuxtjs/google-fonts": "^3.2.0",
+    "@nuxtjs/i18n": "^8.5.3",
+    "@pinia/nuxt": "^0.5.4",
+    "@primevue/nuxt-module": "^4.0.7",
+    "@primevue/themes": "^4.0.7",
+    "@vee-validate/nuxt": "^4.13.2",
+    "axios": "^1.7.7",
+    "bootstrap": "^5.3.3",
+    "js-cookie": "^3.0.5",
+    "nuxt": "^3.13.0",
+    "pinia": "^2.2.2",
+    "pinia-plugin-persistedstate": "^4.0.1",
+    "primeflex": "^3.3.1",
+    "primeicons": "^7.0.0",
+    "sass": "^1.78.0",
+    "vue": "latest",
+    "vue-router": "latest",
+    "vue3-carousel": "^0.3.4",
+    "yup": "^1.4.0"
+  }
+}

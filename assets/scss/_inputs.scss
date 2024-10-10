@@ -1,0 +1,26 @@
+.p-inputotp-input {
+  width: 92.58px !important;
+  height: 92.58px !important;
+  border-radius: 50% !important;
+  background-color: #F0F0F0 !important;
+  border-color: #F0F0F0 !important;
+
+  @media screen and (max-width: $screen-md) {
+    width: 50px !important;
+    height: 50px !important;
+  }
+
+  &:focus {
+    border-color: #46BFB8 !important;
+  }
+
+  &[value] {
+    background-color: transparent !important;
+    border-color: #46BFB8 !important;
+  }
+}
+
+
+.resend-otp__btn {
+  
+}
